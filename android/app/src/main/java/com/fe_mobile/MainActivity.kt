@@ -7,9 +7,8 @@ import com.facebook.react.defaults.DefaultReactActivityDelegate
 import android.os.Bundle;
 class MainActivity : ReactActivity() {
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(null);
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(null)
   }
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
